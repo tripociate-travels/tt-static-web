@@ -1,0 +1,14 @@
+# robots.txt for Tripociate Travels
+# Allow all user agents to crawl the site
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /cart/
+Disallow: /checkout/
+
+# Allow crawlers to access specific files in disallowed folders
+Allow: /admin/public/
+
+# Sitemap location
+Sitemap: https://tripociate.com/sitemap.xml
